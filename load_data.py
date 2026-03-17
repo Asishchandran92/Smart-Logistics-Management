@@ -1,5 +1,3 @@
-# load_all_data.py
-
 import pandas as pd
 import json
 from db.db_connection import get_connection
