@@ -1,6 +1,4 @@
 import mysql.connector
-from mysql.connector
-
 
 def get_connection():
     try:
@@ -10,5 +8,4 @@ def get_connection():
             password="root123",
             database="smart_logistics"
         )
-
         return connection
