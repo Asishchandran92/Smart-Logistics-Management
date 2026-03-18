@@ -1,5 +1,5 @@
 import mysql.connector
-from mysql.connector import Error
+from mysql.connector
 
 
 def get_connection():
@@ -12,7 +12,3 @@ def get_connection():
         )
 
         return connection
-
-    except Error as e:
-        print("Database connection error:", e)
-        return None
